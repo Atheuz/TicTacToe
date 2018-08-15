@@ -1,0 +1,4 @@
+-r requirements.txt
+black
+https://github.com/pre-commit/pre-commit/zipball/master
+https://github.com/PyCQA/astroid/zipball/master
