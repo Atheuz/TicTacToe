@@ -44,7 +44,7 @@ class TicTacToe:
 
     def check_board(self) -> str:
         """Check if there is any winner yet, or a draw."""
-        winner = (1 * self.size, -1 * self.size)
+        winner = (Player.X.value * self.size, Player.O.value * self.size)
         checks = []
         for i in range(self.size):
             checks.append(sum(self.board[:, i]))
